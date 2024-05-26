@@ -5,8 +5,6 @@
 :root {
   --main-color: #cfaa74;
   --main-color-hover: #75592e;
-  --secondary-color: #1e3a8a;
-  --alt-secondary-color: #2c3e50;
   --main-duration: 0.7s;
 }
 
@@ -15,7 +13,7 @@ html {
 }
 
 body {
-    @apply max-w-4xl mx-auto bg-white;
+  @apply max-w-4xl mx-auto bg-white;
 }
 
 h1 {
@@ -31,5 +29,5 @@ h2 {
 }
 
 .button {
-  @apply bg-[var(--main-color)] rounded-md shadow-md shadow-gray-300 p-1 cursor-pointer hover:shadow-gray-500 duration-[var(--main-duration)]
+  @apply bg-[var(--main-color)] rounded-md shadow-md shadow-gray-300 p-1 cursor-pointer hover:shadow-gray-500 duration-[var(--main-duration)];
 }
