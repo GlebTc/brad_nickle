@@ -5,6 +5,7 @@ interface MainServiceIndividualCardProps {
   text: string;
   button: string;
   href: string;
+  button_label: string;
 }
 
 const MainServiceIndividualCard = ({
@@ -12,6 +13,7 @@ const MainServiceIndividualCard = ({
   text,
   button,
   href,
+  button_label,
 }: MainServiceIndividualCardProps) => {
   const componentName = 'MAIN_SERVICE_INDIVIDUAL_CARD';
   return (
@@ -23,8 +25,10 @@ const MainServiceIndividualCard = ({
         <p>{text}</p>
       </div>
       <Link
-        className='border-2 p-2 px-4 border-sky-900 hover:bg-white bg-sky-900 text-white hover:text-sky-900 duration-[var(--main-duration)] rounded-md min-w-[80%] text-center'
+        className='border-2 p-2 px-4 border-sky-900 hover:bg-white bg-sky-950/90 text-white hover:text-sky-900 duration-[var(--main-duration)] rounded-md min-w-[80%] text-center'
         href={href}
+        aria-label={`Navigate to ${button_label}`}
+        title={`Navigate to ${button_label}`}
       >
         {button}
       </Link>

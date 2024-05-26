@@ -5,7 +5,7 @@ const MainClients = () => {
   const componentName = 'MAIN_CLIENTS';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER bg-sky-900 w-full flex flex-col justify-start text-center p-4 text-white  h-full`}
+      className={`${componentName}_MAIN_CONTAINER bg-sky-950/90 w-full flex flex-col justify-start text-center p-4 text-white  h-full`}
     >
       <h2 className='uppercase pb-2'>Our Clients</h2>
 

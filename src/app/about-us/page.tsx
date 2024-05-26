@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import about_us_img from '@/public/assets/about_us_bg_img.webp';
-import SecondHeading from '@/src/components/SecondHeading';
+import SecondHeading from '@/src/components/reusable/SecondHeading';
 import AboutUsSectionOne from './AboutUsSectionOne';
 import AboutMeetOurTeam from './AboutMeetOurTeam';
 
@@ -20,10 +20,9 @@ const About = () => {
         priority
         src={about_us_img}
         alt='About Us Page | Brad Nickle CPA Hamilton'
+        title='About Us Page | Brad Nickle CPA Hamilton'
       />
-      <div className='mt-4'>
-        <SecondHeading message='EXPERT ACCOUNTING SERVICES IN HAMILTON' />
-      </div>
+      <SecondHeading message='EXPERT ACCOUNTING SERVICES IN HAMILTON' />
       <AboutUsSectionOne />
       <AboutMeetOurTeam />
     </div>
