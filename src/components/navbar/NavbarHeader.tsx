@@ -4,7 +4,7 @@ import Link from 'next/link';
 const NavbarHeader = () => {
   const componentName = 'NAVBAR_HEADER';
   return (
-    <div className='relative h-[fit] flex flex-col sm:flex-row justify-between p-4 gap-2 text-sky-900'>
+    <div className='relative h-[fit] flex flex-col sm:flex-row justify-between p-4 gap-2 text-sky-950/90'>
       <div
         className={`${componentName}_HEADING_CONTAINER h-full flex justify-center items-center`}
       >
