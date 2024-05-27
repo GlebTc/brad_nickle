@@ -2,7 +2,7 @@ const AboutMeetOurTeam = () => {
   const componentName = 'MEET_OUT_TEAM';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER bg-sky-950/90 w-full flex flex-col justify-start text-center py-6 text-white shadow-lg shadow-gray-900 h-full`}
+      className={`${componentName}_MAIN_CONTAINER bg-sky-950/90 w-full flex flex-col justify-start text-center p-4 text-white shadow-lg shadow-gray-900 h-full`}
     >
       <div className='MEET_OUR_TEAM_TITLE pb-2'>
         <h2 className='uppercase'>meet our team</h2>
