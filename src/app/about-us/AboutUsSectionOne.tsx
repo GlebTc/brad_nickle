@@ -22,7 +22,7 @@ const AboutUsSectionOne = () => {
           title='Brad Nickle CPA | Navigate to Contact Us Page'
           aria-label='Brad Nickle CPA | Navigate to Contact Us Page'
           href='/contact-us'
-          className='text-links'
+          className='text-links-light'
         >
           Contact us today to book an appointment.
         </Link>

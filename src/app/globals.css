@@ -4,7 +4,7 @@
 
 :root {
   --main-color: #cfaa74;
-  --main-duration: 0.7s;
+  --main-duration: 0.5s;
 }
 
 html {
@@ -31,6 +31,10 @@ h2 {
   @apply bg-[var(--main-color)] rounded-md shadow-md shadow-gray-300 p-1 cursor-pointer hover:shadow-gray-500 duration-[var(--main-duration)];
 }
 
-.text-links {
-  @apply text-[var(--main-color)] hover:text-[#75592e] duration-[var(--main-duration)];
+.text-links-light {
+  @apply text-[var(--main-color)] hover:text-[#75592e] duration-[var(--main-duration)] font-bold;
+}
+
+.text-links-dark {
+  @apply text-[var(--main-color)] hover:text-[#f0e3cf] duration-[var(--main-duration)] font-bold;
 }
