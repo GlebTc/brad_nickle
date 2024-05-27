@@ -6,7 +6,7 @@ import UsefulLinksText from './UsefulLinksText';
 import Links from './Links';
 
 export const metadata = {
-  title: 'Useful Links in Hamilton',
+  title: 'Useful Links',
 };
 
 const UsefulLinks = () => {

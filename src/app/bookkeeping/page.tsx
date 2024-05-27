@@ -6,7 +6,7 @@ import BookkeepingBullets from './BookkeepingBullets';
 import BookAppointment from '@/src/components/reusable/BookAppointment';
 
 export const metadata = {
-  title: 'Bookkeeping Services in Hamilton',
+  title: 'Bookkeeping Services',
 };
 
 const Bookkeeping = () => {

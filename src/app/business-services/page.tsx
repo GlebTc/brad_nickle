@@ -6,7 +6,7 @@ import BusinessServicesText from './BusinessServicesText';
 import BusinessServicesDescription from './BusinessServicesDescription';
 
 export const metadata = {
-  title: 'Business Services in Hamilton',
+  title: 'Business Services',
 };
 
 const BusinessServices = () => {

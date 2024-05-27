@@ -26,16 +26,14 @@ const AboutMeetOurTeam = () => {
           </p>
         </div>
       </div>
-      <div className='OUR_CLIENTS_TEXT p-4 '>
+      <div className='OUR_CLIENTS_TEXT p-4'>
         <p>
           “We're proud that today the business has grown to support hundreds of
           clients. An important milestone was completing over 3,000 tax returns
           in a year. Since Bradley joined the company, the business has
           experienced rapid growth and we are better able to serve clients.”
         </p>
-        <p className='text-xs text-[var(--contact-color)]'>
-          David & Bradley Nickle
-        </p>
+        <p className='text-xs'>David & Bradley Nickle</p>
       </div>
       <div className='OUR_ASSOCIATE_TEAM_TITLE pb-2'>
         <h2 className='uppercase'>our associate team</h2>
