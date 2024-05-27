@@ -1,21 +1,33 @@
+'use client';
+import { useState } from 'react';
 import { IoCall, IoMailSharp, IoMenu } from 'react-icons/io5';
 import Link from 'next/link';
+import MobileMenu from './mobile/MobileMenu';
 
 const NavbarHeader = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
+
+  const handleMobileMenu = () => {
+    setMobileMenu(!mobileMenu);
+  };
+
   const componentName = 'NAVBAR_HEADER';
   return (
     <div className='relative h-[fit] flex flex-col sm:flex-row justify-between p-4 gap-2 text-sky-950/90'>
       <div
         className={`${componentName}_HEADING_CONTAINER h-full flex justify-center items-center`}
       >
-        <div
+        <Link
+          href='/'
           className={`${componentName}_HEADING_CONTENT_CONTAINER flex flex-col items-center sm:items-start`}
+          aria-label='Brad Nickle CPA | Home'
+          title='Brad Nickle CPA | Home'
         >
           <h1>Brad Nickle CPA</h1>
           <h1>Professional Corporation</h1>
           <h1>Accounting & Business</h1>
           <h1>Services (formerly)</h1>
-        </div>
+        </Link>
       </div>
       <div
         className={`${componentName}_CONTACT_CONTAINER flex flex-col justify-center items-center`}
@@ -45,9 +57,14 @@ const NavbarHeader = () => {
       </div>
       <div
         className={`${componentName}_MOBILE_MENU_BUTTON_CONTAINER md:hidden absolute top-5 right-5 button`}
+        onClick={handleMobileMenu}
       >
         <IoMenu size={25} />
       </div>
+      <MobileMenu
+        mobileMenu={mobileMenu}
+        handleMobileMenu={handleMobileMenu}
+      />
     </div>
   );
 };

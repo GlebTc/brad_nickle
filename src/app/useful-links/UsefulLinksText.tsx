@@ -11,7 +11,7 @@ const UsefulLinksText = () => {
         href='/contact-us'
         aria-label='Contact Brad Nickle CPA Hamilton'
         title='Contact Brad Nickle CPA Hamilton'
-        className='text-links'
+        className='text-links-light'
       >
         call Brad Nickle CPA Professional Corporation's office today
       </Link>

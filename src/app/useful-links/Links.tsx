@@ -9,31 +9,31 @@ const Links = () => {
       <div className='LINKS_CONTAINER flex flex-col items-center justify-center border-2 border-white p-5'>
         <Link
           href='https://www.canada.ca/en/revenue-agency.html'
-          className='text-links'
+          className='text-links-dark'
           aria-label='Brad Nickle CPA | Link to CRA (Canada Revenue Agency)'
           title='Brad Nickle CPA | Link to CRA (Canada Revenue Agency)'
         >
           CRA (Canada Revenue Agency)
         </Link>
-        <p>
-          <Link
-            href='https://www.canada.ca/en.html'
-            className='text-links'
-            aria-label='Brad Nickle CPA | Link to Government of Canada'
-            title='Brad Nickle CPA | Link to Government of Canada'
-          >
-            Government of Canada
-          </Link>
-          , for locating:{' '}
-        </p>
-        <p>
+
+        <Link
+          href='https://www.canada.ca/en.html'
+          className='text-links-dark'
+          aria-label='Brad Nickle CPA | Link to Government of Canada'
+          title='Brad Nickle CPA | Link to Government of Canada'
+        >
+          Government of Canada
+        </Link>
+        <p>for locating:</p>
+
+        <p className='text-center'>
           T776 - Real Estate Rentals Schedule | T777- Employment Expenses |
-          T2125 - Business and Professional Activities |{' '}
+          T2125 - Business and Professional Activities | T2201 - Disability Tax
+          Credit
         </p>
-        <p>T2201 - Disability Tax Credit</p>
         <Link
           href='https://www.ontario.ca/page/serviceontario'
-          className='text-links'
+          className='text-links-dark'
           aria-label='Brad Nickle CPA | Link to Service Ontario'
           title='Brad Nickle CPA | Link to Service Ontario'
         >
