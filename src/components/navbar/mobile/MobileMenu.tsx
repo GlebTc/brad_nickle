@@ -12,20 +12,16 @@ const MobileMenu = ({
 }) => {
   const componentName = 'MOBILE_MENU';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER z-[50]`}>
+    <div className={`${componentName}_MAIN_CONTAINER z-[50] md:hidden`}>
       <div
         className={`${componentName}_SCREEN_OVERLAY fixed top-0 w-screen h-screen ${
-          mobileMenu
-            ? 'left-0'
-            : 'left-[-110%]'
+          mobileMenu ? 'left-0' : 'left-[-110%]'
         } bg-gray-900/50 ease-in duration-[var(--main-duration)]`}
       ></div>
       <div
-        className={
-          mobileMenu
-            ? 'fixed left-0 top-0 w-[75%] h-screen bg-[#ecf0f3] ease-in duration-[var(--main-duration)]'
-            : 'fixed left-[-100%] top-0 w-[75%] h-screen bg-[#ecf0f3] ease-in duration-[var(--main-duration)]'
-        }
+        className={`fixed top-0 ${
+          mobileMenu ? 'left-0' : 'left-[-100%]'
+        } w-[75%] h-screen bg-[#ecf0f3] ease-in duration-[var(--main-duration)]`}
       >
         <div className='flex w-full items-start justify-between border-b border-gray-400 p-5'>
           <div className='TITLE_DIV w-full  flex flex-col items-left sm:pr-4 text-blue-900'>
