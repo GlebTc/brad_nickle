@@ -58,57 +58,51 @@ const MobileMenu = ({
             <p className='mb-3'>664 Fennell Ave. E Hamilton, ON, L8V 1V1</p>
             <div className='CONTACT_INFO'>
               <ul className='sm:text-xl md:text-2xl lg:text-3xl flex flex-col items-start'>
-                <li className='flex justify-center sm:justify-start sm:my-1'>
-                  <div className='flex items-center '>
-                    <IoCall />
-                  </div>
+                <li className='PHONE_CONTACT_CONTAINER flex items-center gap-2'>
+                  <IoCall />
                   <Link
                     href='tel:9055759001'
                     className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)] ml-1'
                     aria-label='Call Brad Nickle CPA at (905) 575-9001'
                     title='Call Brad Nickle CPA at (905) 575-9001'
                   >
-                    (905) 575-9001
+                    <p>(905) 575-9001</p>
                   </Link>
                 </li>
-                <li className='flex justify-center sm:justify-start sm:my-1'>
-                  <div className='flex items-center '>
-                    <IoCall />
-                  </div>
-                  <span className='ml-1'>Toll Free</span>
-                  <Link
-                    href='tel:18778772440'
-                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)] ml-1'
-                    aria-label='Call Brad Nickle CPA at 1 (877) 877-2440'
-                    title='Call Brad Nickle CPA at 1 (877) 877-2440'
-                  >
-                    1 (877) 877-2440
-                  </Link>
+                <li className='TOLL_FREE_PHONE_CONTACT_CONTAINER flex items-center gap-2'>
+                  <IoCall />
+                  <p>
+                    Toll Free{' '}
+                    <Link
+                      href='tel:18778772440'
+                      className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)]'
+                      aria-label='Call Brad Nickle CPA at 1 (877) 877-2440'
+                      title='Call Brad Nickle CPA at 1 (877) 877-2440'
+                    >
+                      (877) 877-2440
+                    </Link>
+                  </p>
                 </li>
-                <li className='flex justify-center sm:justify-start sm:my-1'>
-                  <div className='flex items-center '>
-                    <FaFax />
-                  </div>
+                <li className='FAX_CONTACT_CONTAINER flex items-center gap-2'>
+                  <FaFax />
                   <Link
                     href='tel:9053835554'
-                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)] ml-1'
+                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)]'
                     aria-label='Fax Brad Nickle CPA at (905) 383-5554'
                     title='Fax Brad Nickle CPA at (905) 383-5554'
                   >
-                    (905) 383-5554
+                    <p>(905) 383-5554</p>
                   </Link>
                 </li>
-                <li className='flex justify-center sm:justify-start sm:my-1'>
-                  <div className='flex items-center '>
-                    <IoMailSharp />
-                  </div>
+                <li className='EMAIL_CONTACT_CONTAINER flex items-center gap-2'>
+                  <IoMailSharp />
                   <Link
                     href='mailto:bradnickle@bellnet.ca'
-                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)] ml-1'
+                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)]'
                     aria-label='Email Brad Nickle CPA at bradnickle@bellnet.ca'
                     title='Email Brad Nickle CPA at bradnickle@bellnet.ca'
                   >
-                    bradnickle@bellnet.ca
+                    <p>bradnickle@bellnet.ca</p>
                   </Link>
                 </li>
               </ul>

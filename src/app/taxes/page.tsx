@@ -6,7 +6,7 @@ import TaxesText from './TaxesText';
 import TaxesBullets from './TaxesBullets';
 
 export const metadata = {
-  title: 'Taxes Services in Hamilton',
+  title: 'Taxes Services',
 };
 
 const Taxes = () => {

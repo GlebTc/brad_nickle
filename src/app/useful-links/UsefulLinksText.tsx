@@ -3,7 +3,7 @@ import Link from 'next/link';
 const UsefulLinksText = () => {
   const componentName = 'USEFUL_LINKS_TEXT';
   return (
-    <p className={`${componentName}_MAIN_CONTAINER my-2 px-4 text-justify`}>
+    <p className={`${componentName}_MAIN_CONTAINER my-2 p-4 text-justify`}>
       Visit these useful links for more information about personal and business
       accounting in Canada. If you have questions or would like personalized
       information and advice,{' '}
