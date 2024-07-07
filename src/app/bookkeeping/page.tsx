@@ -6,7 +6,34 @@ import BookkeepingBullets from './BookkeepingBullets';
 import BookAppointment from '@/src/components/reusable/BookAppointment';
 
 export const metadata = {
-  title: 'Bookkeeping Services',
+  title: 'Bookkeeping Services | Brad Nickle CPA Professional Corporation',
+  description:
+    'Brad Nickle CPA offers expert bookkeeping services in Hamilton, Ontario. Our services include managing your books, financial records, and ensuring your business stays financially organized and compliant.',
+  keywords: [
+    'bookkeeping services',
+    'professional bookkeeping',
+    'financial records',
+    'Brad Nickle CPA',
+    'Hamilton bookkeeping',
+    'Ontario bookkeeping services',
+    'business bookkeeping',
+    'accounting and bookkeeping',
+    'tax preparation',
+    'financial organization',
+  ],
+  openGraph: {
+    title: 'Bookkeeping Services | Brad Nickle CPA Professional Corporation',
+    description:
+      'Brad Nickle CPA offers expert bookkeeping services in Hamilton, Ontario. Our services include managing your books, financial records, and ensuring your business stays financially organized and compliant.',
+    url: 'https://bradnicklecpa.com/bookkeeping',
+    type: 'website',
+  },
+  twitter: {
+    title: 'Bookkeeping Services | Brad Nickle CPA Professional Corporation',
+    card: 'summary_large_image',
+    description:
+      'Brad Nickle CPA offers expert bookkeeping services in Hamilton, Ontario. Our services include managing your books, financial records, and ensuring your business stays financially organized and compliant.',
+  },
 };
 
 const Bookkeeping = () => {

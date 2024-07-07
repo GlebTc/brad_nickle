@@ -11,13 +11,12 @@ const Main = () => {
   const componentName = 'MAIN';
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
-      <Image
-        src={home_image}
+      <img
+        src='/assets/home_bg_img.webp'
         alt='Brad Nickle CPA | Main Page Image'
         title='Brad Nickle CPA | Main Page Image'
-        width={1920}
-        height={1080}
-        quality={50}
+        width={1070}
+        height={500}
         className={`${componentName}_IMAGE`}
       />
       <MainStartingNewBusiness />

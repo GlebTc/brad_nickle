@@ -5,7 +5,33 @@ import BookAppointment from '@/src/components/reusable/BookAppointment';
 import ContactText from './ContactText';
 
 export const metadata = {
-  title: 'Contact Us',
+  title: 'Contact Us | Brad Nickle CPA Professional Corporation',
+  description:
+    'Get in touch with Brad Nickle CPA for professional accounting services in Hamilton, Ontario. Contact us for consultations, appointments, and inquiries.',
+  keywords: [
+    'contact us',
+    'Brad Nickle CPA',
+    'Hamilton accounting services',
+    'professional accounting',
+    'Ontario accounting',
+    'accounting consultations',
+    'tax preparation',
+    'financial planning',
+    'bookkeeping',
+  ],
+  openGraph: {
+    title: 'Contact Us | Brad Nickle CPA Professional Corporation',
+    description:
+      'Get in touch with Brad Nickle CPA for professional accounting services in Hamilton, Ontario. Contact us for consultations, appointments, and inquiries.',
+    url: 'https://bradnicklecpa.com/contact-us',
+    type: 'website',
+  },
+  twitter: {
+    title: 'Contact Us | Brad Nickle CPA Professional Corporation',
+    card: 'summary_large_image',
+    description:
+      'Get in touch with Brad Nickle CPA for professional accounting services in Hamilton, Ontario. Contact us for consultations, appointments, and inquiries.',
+  },
 };
 
 const ContactUs = () => {
