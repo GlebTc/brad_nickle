@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '../components/navbar/Navbar';
@@ -20,8 +19,36 @@ export const metadata = {
     description:
       'Brad Nickle CPA: over 20 years of professional experience, bookkeeping, tax and other services. Serving Hamilton, Ontario and surrounding areas.',
   },
-  keywords:
-    'accounting, bookkeeping, tax, hamilton, ontario, brad nickle, cpa, accountant, tax accountant, bookkeeper, tax preparer, tax preparation, tax return, tax filing, tax services, tax help, tax advice, tax planning, tax strategy, tax strategy, tax',
+  keywords: [
+    'accounting',
+    'bookkeeping',
+    'tax',
+    'hamilton',
+    'ontario',
+    'brad nickle',
+    'cpa',
+    'accountant',
+    'tax accountant',
+    'bookkeeper',
+    'tax preparer',
+    'tax preparation',
+    'tax return',
+    'tax filing',
+    'tax services',
+    'tax help',
+    'tax advice',
+    'tax planning',
+    'tax strategy',
+  ],
+  creator: 'Brad Nickle CPA Professional Corporation',
+  publisher: 'Brad Nickle CPA Professional Corporation',
+  openGraph: {
+    title: 'Brad Nickle CPA Professional Corporation',
+    description:
+      'Brad Nickle CPA: over 20 years of professional experience, bookkeeping, tax and other services. Serving Hamilton, Ontario and surrounding areas.',
+    url: 'https://bradnicklecpa.com',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

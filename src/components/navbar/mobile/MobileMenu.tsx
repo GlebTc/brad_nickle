@@ -62,7 +62,7 @@ const MobileMenu = ({
                   <IoCall />
                   <Link
                     href='tel:9055759001'
-                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)] ml-1'
+                    className='text-sky-950/90 font-bold hover:text-sky-800/90 duration-[var(--main-duration)]'
                     aria-label='Call Brad Nickle CPA at (905) 575-9001'
                     title='Call Brad Nickle CPA at (905) 575-9001'
                   >

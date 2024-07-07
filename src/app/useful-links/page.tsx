@@ -6,7 +6,34 @@ import UsefulLinksText from './UsefulLinksText';
 import Links from './Links';
 
 export const metadata = {
-  title: 'Useful Links',
+  title: 'Useful Links | Brad Nickle CPA Professional Corporation',
+  description:
+    'Explore useful links and resources for personal and business accounting. Brad Nickle CPA provides valuable information to help you navigate your financial needs.',
+  keywords: [
+    'useful links',
+    'accounting resources',
+    'business accounting',
+    'personal accounting',
+    'Brad Nickle CPA',
+    'Hamilton accounting services',
+    'Ontario accounting resources',
+    'financial resources',
+    'tax resources',
+    'bookkeeping resources',
+  ],
+  openGraph: {
+    title: 'Useful Links | Brad Nickle CPA Professional Corporation',
+    description:
+      'Explore useful links and resources for personal and business accounting. Brad Nickle CPA provides valuable information to help you navigate your financial needs.',
+    url: 'https://bradnicklecpa.com/useful-links',
+    type: 'website',
+  },
+  twitter: {
+    title: 'Useful Links | Brad Nickle CPA Professional Corporation',
+    card: 'summary_large_image',
+    description:
+      'Explore useful links and resources for personal and business accounting. Brad Nickle CPA provides valuable information to help you navigate your financial needs.',
+  },
 };
 
 const UsefulLinks = () => {

@@ -8,7 +8,34 @@ import AccountingFinancialReporting from './AccountingFinancialReporting';
 import BookAppointment from '@/src/components/reusable/BookAppointment';
 
 export const metadata = {
-  title: 'Accounting',
+  title: 'Accounting Services | Brad Nickle CPA Professional Corporation',
+  description:
+    'Brad Nickle CPA provides professional accounting services in Hamilton, Ontario. Our services include consultations, government taxation, and financial reporting to help manage your business finances effectively.',
+  keywords: [
+    'accounting services',
+    'professional accounting',
+    'accounting consultations',
+    'government taxation',
+    'financial reporting',
+    'Brad Nickle CPA',
+    'Hamilton accounting',
+    'Ontario accounting services',
+    'business accounting',
+    'tax accounting',
+  ],
+  openGraph: {
+    title: 'Accounting Services | Brad Nickle CPA Professional Corporation',
+    description:
+      'Brad Nickle CPA provides professional accounting services in Hamilton, Ontario. Our services include consultations, government taxation, and financial reporting to help manage your business finances effectively.',
+    url: 'https://bradnicklecpa.com/accounting',
+    type: 'website',
+  },
+  twitter: {
+    title: 'Accounting Services | Brad Nickle CPA Professional Corporation',
+    card: 'summary_large_image',
+    description:
+      'Brad Nickle CPA provides professional accounting services in Hamilton, Ontario. Our services include consultations, government taxation, and financial reporting to help manage your business finances effectively.',
+  },
 };
 
 const Accounting = () => {
