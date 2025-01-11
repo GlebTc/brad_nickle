@@ -77,14 +77,22 @@ const Footer = () => {
         </div>
         <p>Extended hours available during tax season</p>
       </div>
-      <div
-        // href="https://www.webdevelopmenthamilton.com"
-        className='text-[#90cdf4] text-2xl font-bold text-center w-fit mx-auto py-4'
-        // hover:text-blue-100
-        aria-label='© 2023 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton'
-      >
+      <div className={`${componentName}_COPYRIGHT_CONTAINER text-[#90cdf4] text-center`}>
+        <div aria-label='© 2025 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton'>
+          <h2>
+            &copy; {currentYear} Web Development Hamilton. All rights reserved.
+          </h2>
+        </div>
         <h2>
-          &copy; {currentYear} Web Development Hamilton. All rights reserved.
+          We build {` `}
+          <Link
+            href='https://www.webdevelopmenthamilton.com'
+            aria-label='© 2025 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton'
+            title='© 2025 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton'
+            className='text-blue-100 font-bold hover:text-blue-400 duration-700'
+          >
+            Small Business Websites
+          </Link>
         </h2>
       </div>
     </div>
