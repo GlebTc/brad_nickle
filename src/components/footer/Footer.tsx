@@ -71,13 +71,25 @@ const Footer = () => {
       </div>
       <div className='HOURS_CONTAINER border-b border-gray-300 w-full py-4 flex flex-col gap-2'>
         <h2 className='text-lg font-[600] uppercase'>Hours</h2>
-        <div className='flex gap-8'>
-          <p>Mon - Fri</p>
-          <p>09:00 AM - 05:00 PM</p>
+        <div className='HOURS_LIST_CONTAINER'>
+          <div className='flex justify-between w-full max-w-[300px]'>
+            <p className=''>Mon - Thu</p>
+            <p>09:00 AM - 08:00 PM</p>
+          </div>
+          <div className='flex justify-between w-full max-w-[300px]'>
+            <p className=''>Fri</p>
+            <p>09:00 AM - 05:00 PM</p>
+          </div>
+          <div className='flex justify-between w-full max-w-[300px]'>
+            <p className=''>Sat</p>
+            <p>09:00 AM - 03:00 PM</p>
+          </div>
         </div>
         <p>Extended hours available during tax season</p>
       </div>
-      <div className={`${componentName}_COPYRIGHT_CONTAINER text-[#90cdf4] text-center`}>
+      <div
+        className={`${componentName}_COPYRIGHT_CONTAINER text-[#90cdf4] text-center`}
+      >
         <div aria-label='© 2025 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton'>
           <h2>
             &copy; {currentYear} Web Development Hamilton. All rights reserved.
