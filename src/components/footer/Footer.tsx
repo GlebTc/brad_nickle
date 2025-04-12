@@ -85,7 +85,7 @@ const Footer = () => {
             <p>09:00 AM - 03:00 PM</p>
           </div>
         </div>
-        <p>Extended hours available during tax season</p>
+        {/* <p>Extended hours available during tax season</p> */}
       </div>
       <div
         className={`${componentName}_COPYRIGHT_CONTAINER text-[#90cdf4] text-center`}
